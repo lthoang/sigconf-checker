@@ -169,6 +169,8 @@ class Formatter(object):
                         MARGIN_RIGHT - RIGHT_OFFSET
                     ):
                         violation = Margin.RIGHT
+                    elif float(image["bottom"]) > Page.HEIGHT.value - (MARGIN_BOTTOM - BOTTOM_OFFSET):
+                        violation = Margin.BOTTOM
 
                     if violation:
                         # if the image is completely white, it can be skipped
