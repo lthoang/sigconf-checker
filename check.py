@@ -339,7 +339,7 @@ class Formatter(object):
                         im.draw_rect(bbox, fill=None, stroke="red", stroke_width=5)
                     elif violation == Margin.BOTTOM:
                         self.logs[Error.MARGIN] += [
-                            "Text on page {} bleeds into the top margin.".format(
+                            "Text on page {} bleeds into the bottom margin.".format(
                                 page + 1
                             )
                         ]
