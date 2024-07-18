@@ -365,9 +365,6 @@ def parse_args():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("paper_paths", metavar="file_or_dir", nargs="+", default=[])
-    parser.add_argument(
-        "-f", "--format", choices={"sigconf", "sigtog"}, default="sigconf"
-    )
     parser.add_argument("-o", "--output_dir", default=".", help="Output directory")
     return parser.parse_args()
 
