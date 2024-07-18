@@ -9,7 +9,7 @@ import traceback
 
 
 TOP_OFFSET = 1
-BOTTOM_OFFSET = 1
+BOTTOM_OFFSET = 2
 LEFT_OFFSET = 2
 RIGHT_OFFSET = 4.5
 
