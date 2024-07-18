@@ -14,3 +14,8 @@ Run the checking tool:
 ```bash
 python check.py <input file or folder> -o <output dir>
 ```
+
+For example:
+```bash
+python check.py sample/sigconf-paper.pdf -o sample
+```
